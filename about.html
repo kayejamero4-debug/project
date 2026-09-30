@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> United Evangelical Church School </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="sub-header">
+    <div class="main">
+        <div class="navbar">
+            <div class="logo">
+                <h2 class="logo-text">UECS</h2>
+            </div>
+            <ul class="navlinks">   
+                    <li><a href="home.html">Home</a></li>   
+                    <li><a href="facilities.html">Facilities</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="students.html">Students</a></li>
+                </ul>
+            </div>
+    </div>
+    <audio id="bg-music" loop>
+        <source src="Y2Mate.is - Eraserheads - Huwag Kang matakot.mp3" type"audio/mpeg">
+    </audio>
+
+    <script>
+        // Modern browsers block background music until the user interacts with the page.
+        // Start the song when the user clicks anywhere.
+        document.addEventListener('click', function () {
+            var audio = document.getElementById('bg-music');
+
+            // Set the volume here (0.6 means 60% volume)
+            audio.volume = 0.6;
+
+            audio.play();
+        }, { once: true });
+
+    </script>
+</body>        
+</div>
+</section>
+
+<!--------- about us content --------->
+
+<section class="about-us">
+
+    <div class="row">
+
+        <!-- Left Column: Text--->
+        <div class="about-col">
+               <h1> United Evangelical Church School</h1>
+               <p> United Evangelical Church School delivers quality Christian
+                 education by combining strong academic
+                 learning with spiritual growth and moral character development. 
+                 Rooted in biblical values, the school creates 
+                 a nurturing, purpose-driven environment where
+                  students pursue academic
+                 excellence while learning integrity, obedience, 
+                 and a lifelong commitment to serving others</p>
+        </div>
+
+        <!-- Right Side: Clean Image Grid  Grid Lsyout: Image -->
+        <div classs="about-col">
+            <img src="Untitled98_20260921221832.png">
+        </div>
+
+    </div>
+</section>
+
+
+
+            

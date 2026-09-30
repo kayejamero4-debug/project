@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> United Evangelical Church School </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="sub-header">
+    <div class="main">
+        <div class="navbar">
+            <div class="logo">
+                <h2 class="logo-text">UECS</h2>
+            </div>
+            <ul class="navlinks">   
+                    <li><a href="home.html">Home</a></li>   
+                    <li><a href="facilities.html">Facilities</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="students.html">Students</a></li>
+                </ul>
+            </div>
+    </div>
+    <audio id="bg-music" loop>
+        <source src="Y2Mate.is - Eraserheads - Huwag Kang matakot.mp3" type"audio/mpeg">
+    </audio>
+    
+    <h1>Student Gallery</h1>
+    <font-size="30px"></font-size>
+
+    <div class="img-gallery">
+        <img src="images/jacobsquare.png" width="360px" height="360px">
+        <img src="images/grade10square.png" width="360px" height="360px" > 
+        <img src="images/faithsquare.png"  width="360px" height="360px">
+        <img src="images/sholosquare.png"  width="360px" height="360px" >
+        <img src="images/tentensquare.png"   width="360px" height="360px">
+        <img src="images/satsquare.png"  width="360px" height="360px" >
+        <img src="images/nellynsquare.png"  width="360px" height="360px">
+        <img src="images/jiansquare.png" width="360px" height="360px" >
+
+    </div>
+</section>
+
+    <script>
+        // Modern browsers block background music until the user interacts with the page.
+        // Start the song when the user clicks anywhere.
+        document.addEventListener('click', function () {
+            var audio = document.getElementById('bg-music');
+
+            // Set the volume here (0.6 means 60% volume)
+            audio.volume = 0.6;
+
+            audio.play();
+        }, { once: true });
+
+
+
+
+
